@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A showcase of all HTML elements and their attributes"
+    />
+    <title>HTML Element</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1 id="main-title" class="title-class" style="color: lightblue">
+        HTML Element Showcase
+      </h1>
+      <nav>
+        <a href="form.html">Go to Form Page</a>
+        <a href="#main-content">Main Content</a> |
+        <a href="#media-section">Media Section</a> |
+        <a href="example.pdf" download="HTML_Showcase.pdf">Download</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <section>
+        <h2>Text Elements</h2>
+        <p>This paragraph uses various inline elements:</p>
+        <p>
+          <strong>The meeting was a huge success</strong><br />
+          The <em>emphasized</em> parts of the presentation were well
+          received.<br />
+          The speaker made a <b>bold</b> statement about the future.<br />
+          The team responded with <i>enthusiasm</i> after the speech.<br />
+          The <mark>highlighted</mark> results were shared at the end.<br />
+          Even though we were tired, we felt <u>motivated</u> to continue.
+        </p>
+      </section>
+
+      <section id="media-section">
+        <h2>Media Elements</h2>
+        <img
+          src="https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg"
+          alt="Sample Image"
+          width="300"
+          height="300"
+        />
+        <audio
+          src="./Ed Sheeran - Shape Of You (mp3goo.com)(0).mp3"
+          controls
+          autoplay
+          loop
+          muted
+          preload="metadata"
+        ></audio>
+        <video
+          src="https://media.istockphoto.com/id/1469733028/video/a-kitten-is-looking-and-want-to-touch-the-camera-lens.mp4?s=mp4-640x640-is&k=20&c=RnSQsc9038TVDGGFATEur1seyJQm0SkMLvp88t_EPaQ="
+          controls
+          autoplay
+          loop
+          muted
+          poster="poster.jpg"
+          preload="metadata"
+          width="300"
+          height="300"
+        ></video>
+      </section>
+
+      <section>
+        <h2>Lists and Tables</h2>
+        <ul>
+          <li>Unordered List Item</li>
+          <li>Another Item</li>
+        </ul>
+        <ol start="3" type="I">
+          <li>Ordered List Item</li>
+          <li>Another Item</li>
+        </ol>
+        <table>
+          <caption>
+            Sample Table
+          </caption>
+          <thead>
+            <tr>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1</td>
+              <td>Data</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Footer Row</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 HTML Showcase. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

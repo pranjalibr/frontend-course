@@ -1,0 +1,141 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #3e0b75; 
+  color: #bfa7a7; 
+}
+
+/* Header */
+header {
+  background-color: #3b4045; 
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 5px solid #7da0c5; 
+}
+
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Form Section */
+#form-elements {
+  background-color: #ffffff; 
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Inputs */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  background-color: #f9f9f9; 
+}
+
+/* Buttons */
+form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem; 
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #218838; 
+}
+
+/* Grid Layout Example */
+#table-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.grid-item {
+  background-color: #17a2b8; 
+  color: white;
+  padding: 1rem;
+  border: 2px solid #138496; 
+  text-align: center;
+}
+
+/* Flexbox Example */
+.flex-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 1rem;
+  background-color: #ffc107; 
+}
+
+.flex-item {
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Overflow Example */
+.overflow-box {
+  width: 300px;
+  height: 150px;
+  overflow-y: scroll; /* Vertical scrollbar */
+  background-color: #e9ecef; /* Light gray background */
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+/* Z-Index Example */
+.z-index-container {
+  position: relative;
+}
+
+.z-index-item {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.5); /* Red with transparency */
+  z-index: 10;
+}
+
+.z-index-item-behind {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.5); /* Blue with transparency */
+  z-index: 5;
+}
